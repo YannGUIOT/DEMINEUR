@@ -1,0 +1,109 @@
+@font-face 
+{
+  font-family: Riffic;
+  src: url(font/RifficFree-Bold.ttf);
+}
+
+.global_screen
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    background-color: rgb(58, 32, 6);
+}
+
+h1
+{
+    color: rgb(251, 157, 64);
+    text-shadow: 3px 3px 3px rgb(52, 51, 51);
+}
+
+.settings_screen
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+
+    font-family: Riffic;
+    background-color: rgb(16, 195, 135);
+    border: 4px solid black;
+}
+
+#game_screen
+{
+    border: 4px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.column_0, .column_1, .column_2, .column_3, .column_4, .column_5, .column_6, .column_7, .column_8, .column_9, .column_10, .column_11, .column_12, .column_13, .column_14, .column_15, .column_16, .column_17, .column_18, .column_19
+{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 5%;
+}
+
+
+#game_screen button
+{
+    height: 100%;
+    background-color: rgb(229, 199, 143);
+    border-color: rgb(189, 133, 98);
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Riffic;
+}
+
+.flag
+{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#win_or_loose
+{
+    font-size: xx-large;
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 3px 3px 3px rgb(52, 51, 51);
+}
+
+
+img
+{
+    width: auto;
+    height: auto;
+}
+
+.difficulty
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.difficulty button
+{
+    width: 35%;
+}
+
+h4
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: rgb(246, 255, 0) 2px 0 5px;
+}
+
+.flag
+{
+    text-shadow: rgb(246, 255, 0) 2px 0 5px;
+}
+
+#demine, #start_reset
+{
+    background-color: rgb(249, 207, 139);
+}
